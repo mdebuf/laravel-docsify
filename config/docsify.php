@@ -12,5 +12,6 @@ return [
     */
 
     'route' => 'docs',
+    'path' => '',
 
 ];

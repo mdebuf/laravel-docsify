@@ -35,6 +35,6 @@ class DocsifyController extends Controller
     {
         Log::debug(__METHOD__);
 
-        return response()->file(base_path('docs/'.$path));
+        return response()->file(base_path(config('docsify.path') . $path));
     }
 }
